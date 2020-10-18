@@ -241,7 +241,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
                 (int)(irisPosition.y + irisRadius));
         mHappyStarGraphic.draw(canvas);
       } else {
-//        canvas.drawCircle(irisPosition.x, irisPosition.y, irisRadius, mIrisPaint);
+        canvas.drawCircle(irisPosition.x, irisPosition.y, irisRadius, mIrisPaint);
       }
     } else {
       canvas.drawCircle(eyePosition.x, eyePosition.y, eyeRadius, mEyelidPaint);
